@@ -4,7 +4,7 @@ namespace PhpBundle\CryptTunnel\Symfony\Api\Controllers;
 
 use PhpBundle\Crypt\Domain\Enums\HashAlgoEnum;
 use PhpBundle\Crypt\Domain\Libs\Rsa\Rsa;
-use PhpBundle\Crypt\Domain\Libs\Rsa\Session;
+use PhpBundle\CryptTunnel\Domain\Libs\Session;
 use PhpLab\Rest\Base\BaseCrudApiController;
 use PhpBundle\Article\Domain\Interfaces\PostServiceInterface;
 use Symfony\Component\HttpFoundation\JsonResponse;
