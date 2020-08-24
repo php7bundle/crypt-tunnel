@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Container\Container;
-use PhpBundle\Crypt\Domain\Libs\Rsa\RsaStoreFile;
+use PhpBundle\Kpi\Domain\Libs\Rsa\RsaStoreFile;
 use PhpBundle\CryptTunnel\Symfony\Api\CryptModule;
 use PhpLab\Core\Enums\Measure\TimeEnum;
 use Symfony\Component\Cache\Adapter\AbstractAdapter;
@@ -10,7 +10,7 @@ use Symfony\Component\Routing\RouteCollection;
 use Symfony\Component\HttpFoundation\Request;
 use PhpLab\Rest\Helpers\RestApiControllerHelper;
 use PhpLab\Core\Legacy\Yii\Helpers\FileHelper;
-use PhpBundle\Crypt\Domain\Libs\Rsa\RsaStoreInterface;
+use PhpBundle\Kpi\Domain\Libs\Rsa\RsaStoreInterface;
 
 /**
  * @var Container $container
